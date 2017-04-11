@@ -32,7 +32,7 @@ socket_path = ''
 host = 'localhost'
 
 # порт по которому слушать
-port = 1338
+port = 1339
 
 opts, args = getopt(sys.argv[1:], 'a:o:c:s:h:p:g', ['admin=', 'order=', 'castle=', 'socket=', 'host=', 'port=', 'gold='])
 
